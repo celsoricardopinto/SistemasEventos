@@ -42,7 +42,7 @@ public class Main {
             System.out.println("7. Eventos Passados");
             System.out.println("0. Sair");
             System.out.print("Escolha: ");
-            opcao = Integer.parseInt(scanner.nextLine());
+            opcao = scanner.nextLine();
 
             switch (opcao) {
                 case 1: cadastrarEvento();
