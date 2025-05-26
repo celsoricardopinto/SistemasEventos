@@ -30,7 +30,6 @@ public class Main {
     }
 
     private static void menuPrincipal() {
-        int opcao;
         do {
             System.out.println("\n--- MENU PRINCIPAL ---");
             System.out.println("1. Cadastrar Evento");
@@ -42,7 +41,7 @@ public class Main {
             System.out.println("7. Eventos Passados");
             System.out.println("0. Sair");
             System.out.print("Escolha: ");
-            opcao = scanner.nextLine();
+            int opcao = scanner.nextLine();
 
             switch (opcao) {
                 case 1: cadastrarEvento();
