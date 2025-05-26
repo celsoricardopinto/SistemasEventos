@@ -45,13 +45,13 @@ public class Main {
             opcao = Integer.parseInt(scanner.nextLine());
 
             switch (opcao) {
-                case 1 -> cadastrarEvento();
-                case 2 -> listarEventos(gerenciador.listarEventos());
-                case 3 -> confirmarParticipacao();
-                case 4 -> cancelarParticipacao();
-                case 5 -> listarEventos(gerenciador.eventosParticipando());
-                case 6 -> listarEventos(gerenciador.eventosEmAndamento());
-                case 7 -> listarEventos(gerenciador.eventosPassados());
+                case 1 : cadastrarEvento();
+                case 2 : listarEventos(gerenciador.listarEventos());
+                case 3 : confirmarParticipacao();
+                case 4 : cancelarParticipacao();
+                case 5 : listarEventos(gerenciador.eventosParticipando());
+                case 6 : listarEventos(gerenciador.eventosEmAndamento());
+                case 7 : listarEventos(gerenciador.eventosPassados());
             }
         } while (opcao != 0);
     }
